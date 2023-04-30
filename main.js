@@ -14,7 +14,7 @@ function btnKetQuaDiemThi() {
     var ketQuaDiemThi = tinhDiemThi(khuVuc, doiTuong, diemMon1, diemMon2, diemMon3);
 
     if (diemMon1 == 0 || diemMon2 == 0 || diemMon3 == 0) {
-        var result = "<div>Bạn dã rớt. Vì có 1 môn bị liệt với điểm 0.</div>";
+        var result = "<div>Bạn đã rớt. Vì có 1 môn bị liệt với điểm 0.</div>";
     } else if (ketQuaDiemThi < diemChuan) {
         var result = "<div class='alert alert-primary'>Bạn đã rớt. Tổng điểm thi: " + ketQuaDiemThi + "</div>"
     } else if (ketQuaDiemThi >= diemChuan) {
